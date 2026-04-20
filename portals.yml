@@ -1,0 +1,168 @@
+# portals.yml — Job Portals for Suhail
+# Petroleum Engineering roles: Remote, Gulf, Malaysia
+
+companies:
+
+  # ── Major Oilfield Services ───────────────────────────
+  - name: "SLB (Schlumberger)"
+    careers_url: "https://careers.slb.com/search-jobs?keywords=petroleum+engineer"
+    type: "greenhouse"
+
+  - name: "Halliburton"
+    careers_url: "https://jobs.halliburton.com/search-jobs/petroleum"
+    type: "workday"
+
+  - name: "Baker Hughes"
+    careers_url: "https://careers.bakerhughes.com/global/en/search-results?keywords=petroleum"
+    type: "workday"
+
+  - name: "Weatherford"
+    careers_url: "https://careers.weatherford.com/search/?q=petroleum+engineer"
+    type: "generic"
+
+  - name: "TechnipFMC"
+    careers_url: "https://www.technipfmc.com/en/careers/job-search/?keyword=petroleum"
+    type: "generic"
+
+  # ── National Oil Companies (Gulf) ─────────────────────
+  - name: "Saudi Aramco"
+    careers_url: "https://www.aramco.com/en/careers/search?keywords=petroleum+engineer"
+    type: "generic"
+
+  - name: "ADNOC"
+    careers_url: "https://careers.adnoc.ae/search/?q=petroleum+engineer"
+    type: "generic"
+
+  - name: "QatarEnergy"
+    careers_url: "https://careers.qatarenergy.qa/search/?q=petroleum"
+    type: "generic"
+
+  - name: "Kuwait Oil Company"
+    careers_url: "https://careers.kockw.com"
+    type: "generic"
+
+  - name: "PDO (Petroleum Development Oman)"
+    careers_url: "https://pdo.recruitmentplatform.com"
+    type: "generic"
+
+  # ── International Majors ──────────────────────────────
+  - name: "Shell"
+    careers_url: "https://www.shell.com/careers/search.html?keyword=petroleum+engineer"
+    type: "generic"
+
+  - name: "BP"
+    careers_url: "https://careers.bp.com/search-jobs?keywords=petroleum+engineer"
+    type: "workday"
+
+  - name: "TotalEnergies"
+    careers_url: "https://careers.totalenergies.com/en/search?q=petroleum+engineer"
+    type: "generic"
+
+  - name: "Equinor"
+    careers_url: "https://www.equinor.com/careers/open-positions?q=petroleum"
+    type: "generic"
+
+  - name: "Eni"
+    careers_url: "https://www.eni.com/en-IT/careers/job-search.html?keywords=petroleum"
+    type: "generic"
+
+  - name: "Petrofac"
+    careers_url: "https://careers.petrofac.com/search/?q=petroleum+engineer"
+    type: "greenhouse"
+
+  # ── Engineering Consultancies ─────────────────────────
+  - name: "Wood Group"
+    careers_url: "https://careers.woodplc.com/search/?q=petroleum+engineer"
+    type: "generic"
+
+  - name: "Worley"
+    careers_url: "https://careers.worley.com/search/?q=petroleum+engineer"
+    type: "generic"
+
+  - name: "Technip Energies"
+    careers_url: "https://www.technipenergies.com/careers/?search=petroleum"
+    type: "generic"
+
+  - name: "Mott MacDonald"
+    careers_url: "https://www.mottmac.com/careers/search?q=petroleum"
+    type: "generic"
+
+  # ── Energy Tech / Software (PETREL / ArcGIS jobs) ─────
+  - name: "SLB Digital"
+    careers_url: "https://careers.slb.com/search-jobs?keywords=PETREL"
+    type: "greenhouse"
+
+  - name: "Esri (ArcGIS)"
+    careers_url: "https://www.esri.com/en-us/careers/home?q=oil+gas"
+    type: "greenhouse"
+
+  - name: "Emerson (Automation Solutions)"
+    careers_url: "https://www.emerson.com/en-us/careers?q=petroleum"
+    type: "workday"
+
+  # ── Malaysia (APU alumni connections) ─────────────────
+  - name: "PETRONAS"
+    careers_url: "https://careers.petronas.com/en/search?q=petroleum+engineer"
+    type: "generic"
+
+  - name: "Sapura Energy"
+    careers_url: "https://www.sapuraenergy.com/careers/search?q=engineer"
+    type: "generic"
+
+# ── Job Board Searches ─────────────────────────────────
+job_boards:
+
+  linkedin:
+    enabled: true
+    queries:
+      - query: "petroleum engineer remote"
+        filters: { remote: true }
+      - query: "drilling engineer entry level"
+        filters: { experience: ["entry", "associate"] }
+      - query: "reservoir simulation engineer"
+        filters: { remote: true }
+      - query: "petrophysics engineer"
+      - query: "PETREL reservoir engineer"
+      - query: "CMG reservoir simulation"
+      - query: "ArcGIS oil gas engineer"
+      - query: "petroleum engineering lecturer"
+      - query: "subsurface engineer remote"
+      - query: "energy data analyst petroleum"
+
+  indeed:
+    enabled: true
+    queries:
+      - "petroleum engineer remote"
+      - "drilling engineer"
+      - "reservoir engineer"
+      - "petrophysics engineer"
+      - "PETREL PROSPER engineer"
+    locations: ["Remote", "UAE", "Qatar", "Saudi Arabia", "Malaysia"]
+
+  glassdoor:
+    enabled: true
+    queries:
+      - "petroleum engineer"
+      - "drilling engineer"
+      - "reservoir simulation"
+
+  wellfound:
+    enabled: true
+    queries:
+      - "petroleum engineer"
+      - "energy engineer"
+      - "subsurface engineer"
+
+  greenhouse:
+    enabled: true
+    queries:
+      - "petroleum engineer"
+      - "reservoir engineer"
+      - "drilling engineer"
+
+  lever:
+    enabled: true
+    queries:
+      - "petroleum engineer"
+      - "energy engineer"
+
