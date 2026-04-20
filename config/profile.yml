@@ -1,0 +1,125 @@
+# Career-Ops Profile — Suhail Furas Hussein Al-Serri
+
+personal:
+  name: "Suhail Furas Hussein Al-Serri"
+  email: "suhailalserri@gmail.com"
+  phone: "+967 781 584 008"
+  location: "Sana'a, Yemen"
+  linkedin: ""        # Add your LinkedIn URL here when ready
+  github: ""          # Add your GitHub URL if you have one
+
+current_role:
+  title: "Teaching Assistant & Petroleum Engineer"
+  company: "Sana'a University"
+  years_experience: 3
+
+target_roles:
+  titles:
+    - "Petroleum Engineer"
+    - "Drilling Engineer"
+    - "Reservoir Engineer"
+    - "Petrophysics Engineer"
+    - "Subsurface Engineer"
+    - "Reservoir Simulation Engineer"
+    - "Geospatial Data Analyst"
+    - "Energy Data Analyst"
+    - "Petroleum Engineering Instructor"
+    - "Technical Consultant – Oil & Gas"
+  seniority:
+    - "Junior"
+    - "Mid-level"
+    - "Entry-level"
+  types:
+    - "Full-time"
+    - "Remote"
+    - "Contract"
+
+target_locations:
+  primary:
+    - "Remote"
+    - "UAE"
+    - "Saudi Arabia"
+    - "Qatar"
+    - "Kuwait"
+    - "Oman"
+  secondary:
+    - "Malaysia"
+    - "United Kingdom"
+    - "United States"
+
+salary:
+  currency: "USD"
+  min_annual: 40000
+  target_annual: 70000
+  note: "Open to negotiation depending on location. Remote roles preferred."
+
+education:
+  degree: "B.Sc. Petroleum Engineering"
+  university: "Asia Pacific University (APU)"
+  country: "Malaysia"
+  graduation_year: 2021
+  gpa: "3.08/4.0"
+  honors: "Second Class Honors"
+
+skills:
+  petroleum_software:
+    - name: "PETREL"
+      level: "Advanced"
+    - name: "CMG"
+      level: "Advanced"
+    - name: "T-navigator"
+      level: "Advanced"
+    - name: "PROSPER"
+      level: "Advanced"
+    - name: "MBAL"
+      level: "Advanced"
+    - name: "GAP"
+      level: "Advanced"
+    - name: "ArcGIS"
+      level: "Intermediate"
+    - name: "Mud Ware"
+      level: "Intermediate"
+  programming:
+    - name: "Python"
+      level: "Intermediate"
+    - name: "MATLAB"
+      level: "Advanced"
+    - name: "Minitab"
+      level: "Intermediate"
+  other:
+    - name: "SolidWorks"
+      level: "Intermediate"
+    - name: "Advanced Excel"
+      level: "Advanced"
+    - name: "PowerPoint"
+      level: "Advanced"
+
+key_achievements:
+  - "Developed DOE software to predict Cutting Transport Performance, improving efficiency by 70%"
+  - "Designed 2D/3D well path trajectories for fault drilling validated in PETREL and MATLAB"
+  - "Optimized water-flooding pattern to maximize oil recovery using CMG and T-navigator"
+  - "Developed AI-based remote monitoring system for gas processing operational efficiency"
+  - "Delivered university-level lectures on drilling engineering, reservoir engineering, and petrophysics"
+
+languages:
+  - language: "Arabic"
+    level: "Native"
+  - language: "English"
+    level: "Professional Working Proficiency"
+
+# Scoring preferences
+scoring:
+  min_apply_score: 3.5       # Don't apply below this (out of 5)
+  weights:
+    skill_match: 0.30        # Petroleum software & tools match
+    location_fit: 0.20       # Remote / Gulf region preference
+    salary_match: 0.20       # $40k–$70k range
+    company_stability: 0.15
+    growth_potential: 0.15
+
+# Companies/keywords to skip
+blacklist:
+  keywords:
+    - "unpaid"
+    - "commission only"
+    - "no experience"
